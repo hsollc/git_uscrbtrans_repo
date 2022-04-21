@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+  
+  body {
+    background-color: rgb(226, 226, 236);
+    font-family: sans-serif;
+  }
+  
+  .text-size {
+    font-size: 3px;
+  }
+  
+  .margin-radius {
+      margin-bottom: 1%;
+      border-radius: 1px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1%;
+  }
+  
+  .less-width {
+    width: 2%;
+    align-sef: center;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .label-pos {
+    color: white;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .float-right {
+    background-color: rgb(223, 228, 233);
+    border-radius: 4px;
+    align-self: center;
+    min-width: 5px;
+    text-align: center;
+    color: white;
+    display: inline;
+    float: right;
+    position: relative;
+    left: 50%;
+    bottom: 2vh;
+  }
+  
+  .title-box {
+    font-size: 3px;
+    color: rgb(0, 0, 255);
+    text-shadow: rgb(142, 142, 142) 0px 0px 16px;
+    margin: 1vh 0 1vh;
+  }
+  
+  .textarea-cont {
+    box-sizing: border-box;
+    
+    width: 70%;
+    padding: 2% 0 0 2%;
+    font-size: 3px;
+  }
+  
+  .speaker-select-label {
+    color: white;
+    margin-bottom: 1%;
+  }
+  
+  .form-control {
+    font-size: 3px;
+    font-size: 3px;
+    border: 3px solid rgb(149, 149, 149);
+    height: 3vh;
+    padding-left: 3%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("http://tuckeralbin.com/wp-content/uploads/intense-cache/icons/plugin/font-awesome/angle-double-down.svg");
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position: 3% 3%;
+  }
+  .btn {
+    width: 3%;
+    height: 3vh;
+    font-size: 3px;
+  }
